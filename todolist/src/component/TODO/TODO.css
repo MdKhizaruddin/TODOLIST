@@ -1,0 +1,23 @@
+.home {
+  background: linear-gradient(40deg, blue white green) !important;
+  background-color: violet !important;
+  margin: 5px;
+  padding: 5px;
+}
+.todolist {
+  background-color: aqua !important;
+  margin: 5px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+.addtodo {
+  background-color: rgb(196, 37, 37) !important;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
+.todoitem {
+  background-color: rgb(128, 0, 21) !important;
+  margin: 5px;
+  padding: 5px;
+}
