@@ -1,0 +1,94 @@
+.home {
+    margin: 15px;
+    padding: 15px;
+    animation: gradient 4s ease infinite;
+    background-image: linear-gradient(40deg, whitesmoke, rgb(91, 0, 177), black);
+    background-size: 300% 300%;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 51% 0%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 51% 0%;
+    }
+}
+
+.todolist {
+    background-color: whitesmoke !important;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px !important;
+    color: blanchedalmond;
+
+}
+
+
+.addtodo {
+    background-color: whitesmoke !important;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px !important;
+    text-align: center;
+    position: sticky !important;
+    top: 35px;
+    /* z-index: 5; */
+    /* float: inline-start; */
+}
+
+.todoitem {
+    background-color: rgb(136, 24, 24) !important;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 5px black;
+    transition: 0.2s;
+
+}
+
+.todoitem:hover {
+    box-shadow: 0 3px 5px black;
+    transform: scale(1.002);
+
+}
+
+.cardtitle {
+    color: black;
+    text-align: center;
+}
+
+
+.listimg {
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+}
+
+.addimg {
+    margin: 15px 0px 15px !important;
+}
+
+.delbtn {
+    display: none !important;
+
+}
+
+
+.todoitem:hover .delbtn {
+    display: block !important;
+}
+
+.delicon {
+    width: 18px;
+    height: 18px;
+}
